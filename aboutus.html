@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn more about Running.pk and our mission.">
+    <title>About Us - Running.pk</title>
+    <link rel="stylesheet" href="css/aboutus.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="about-navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section class="about-section">
+        <div class="about-info">
+            <h1>About Running.PK</h1>
+            <p>Running.PK was founded with a passion for helping people achieve fitness goals through running...</p>
+        </div>        
+
+        <div class="about-image">
+            <img src="images/N2.webp" alt="Running community">
+        </div>
+    </section>
+
+    <!-- Our Team Section -->
+    <section class="team-section">
+        <h2>Meet Our Team</h2>
+        <!-- Team Count Bar -->
+        <div class="team-count-bar" id="teamCount">
+            <!-- JavaScript will dynamically update this count -->
+        </div>
+
+        <div class="team-gallery">
+            <div class="team-member">
+                <img src="images/Ac4.jpeg" alt="Team Member 1">
+                <p>Sarah - Running Coach</p>
+            </div>
+            <div class="team-member">
+                <img src="images/Ac1.jpeg" alt="Team Member 2">
+                <p>John - Nutrition Specialist</p>
+            </div>
+            <div class="team-member">
+                <img src="images/Ac5.jpeg" alt="Team Member 3">
+                <p>Emily - Physical Therapist</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- BMI Calculator Section -->
+    <section class="bmi-calculator">
+        <h2>BMI Calculator</h2>
+        <form class="calculator-form" id="bmiForm">
+            <label for="weight">Weight (kg):</label>
+            <input type="number" id="weight" placeholder="Enter your weight" required>
+            
+            <label for="height">Height (cm):</label>
+            <input type="number" id="height" placeholder="Enter your height" required>
+            
+            <button type="button" onclick="calculateBMI()">Calculate BMI</button>
+            
+            <div id="bmi-result"></div>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="about-footer">
+        <p>&copy; 2024 Running.pk. All rights reserved.</p>
+    </footer>
+
+    <script src="js/aboutus.js"></script>
+</body>
+</html>

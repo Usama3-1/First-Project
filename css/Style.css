@@ -1,0 +1,229 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  background-color: #f0fff1; /* Light pastel blue for a calming background */
+  color: #333; /* Dark text color for contrast */
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #4a90e2; /* Light blue for the navbar */
+  padding: 1em;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  gap: 2em;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 0.2em 1em;
+  border-radius: 5px;
+ 
+}
+
+.navbar a:hover {
+  color: #ff6347;
+  transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+}
+
+.banner {
+  width: 100%;
+  height: 55vh;
+  background-image: url('../images/N1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #d8e7f3; /* Light gray-blue fallback color */
+}
+
+/* Introduction Section Styling */
+.introduction {
+  max-width: 100%;
+  margin: 2em auto;
+  padding: 2em;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+.banner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 55vh;
+  background-image: url('../images/N1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #d8e7f3;
+  padding-left: 2em;
+}
+
+.banner-content {
+  position: absolute;
+  left: 5%;
+  top: 40%;
+  color: #ffffff;
+  max-width: 40%;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.banner h2 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+  color: #ffffff;
+}
+
+.banner p {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+  color: #f0f0f0;
+}
+
+.banner-button {
+  display: inline-block;
+  padding: 0.6em 1.5em;
+  background-color: #ff6347;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.banner-button:hover {
+  background-color: #e5533c;
+  transform: scale(1.05);
+}
+
+
+.introduction h1 {
+  color: #4a90e2;
+  margin-bottom: 0.5em;
+}
+
+.intro-paragraph {
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 1.5em;
+}
+
+
+/* Benefits Section Styling */
+.benefits {
+  display: flex;
+  align-items: stretch;
+  max-width: 100%;
+  margin: 2em auto;
+  padding: 2em;
+  background-color: #599fea;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.benefits-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Aligns content to the top */
+  flex: 1;
+  margin-right: 2em;
+}
+
+.benefits h2 {
+  color: #fbfbfb;
+  font-size: 2em; /* Larger font size for the heading */
+  margin-bottom: 0.5em; /* Less space below heading */
+}
+
+.benefits-list {
+  list-style-type: disc; /* Use bullets */
+  padding-left: 1.5em; /* Indentation for the list */
+  font-size: 1.1em;
+  color: hsl(0, 6%, 88%);
+  line-height: 1.6;
+}
+
+.benefits-list li {
+  margin-bottom: 0.5em;
+}
+
+.benefits-image {
+  flex: 1;
+  width: 50%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+
+
+
+/* Tips Section Styling */
+.tips {
+  max-width: 100%;
+  margin: 2em auto;
+  padding: 2em;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tips h2 {
+  color: #4a90e2;
+  margin-bottom: 0.5em;
+}
+
+.tips-list {
+  text-align: left;
+  margin: 1em 0;
+  padding-left: 1.5em;
+}
+
+.tips-list li {
+  font-size: 1.1em;
+  color: #333;
+  margin-bottom: 0.5em;
+}
+
+.tips-image-front {
+  width: 30%;
+  height: auto;
+  margin-bottom: 1em;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+
+
+.tips-image {
+  width: 30%;
+  height: auto;
+  margin-top: 1.5em;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #4a90e2;
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 2em;
+}

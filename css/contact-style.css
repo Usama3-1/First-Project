@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../images/HD1.png'); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Keeps the background fixed when scrolling */
+}
+
+.contact-section {
+    background-color: rgba(255, 255, 255, 0.8); /* Slight transparency for the contact form section */
+    color: #333;
+    width: 100%;
+    max-width: 600px;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 3em auto;
+    text-align: center;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #4a90e2; 
+    padding: 1em;
+    
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+    gap: 2em;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 0.2em 1em;
+    border-radius: 5px;
+   
+  }
+  
+  .navbar a:hover {
+    color: #ff6347;
+    transition: color 0.3s ease, background-color 0.3s ease, transform 0.3s ease;
+  }
+.contact-section {
+    background-image: url('../images/contact-background.jpg'); 
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 2em;
+}
+
+.contact-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    color: #333;
+}
+
+#contactForm {
+    background-color: rgba(255, 255, 255, 0.85); 
+    padding: 2em;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+}
+
+#contactForm label {
+    font-weight: bold;
+    color: #333;
+}
+
+#contactForm input {
+    width: 100%;
+    padding: 0.5em;
+    margin: 0.5em 0 1em 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#contactForm button {
+    width: 100%;
+    padding: 0.6em;
+    background-color: #4a90e2;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#contactForm button:hover {
+    background-color: #3c7bc0;
+}
+
+#form-message {
+    margin-top: 1em;
+    font-size: 1em;
+    color: #4a90e2;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #4a90e2;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 2em;
+  }
+  
