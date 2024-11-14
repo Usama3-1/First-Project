@@ -227,3 +227,46 @@ footer {
   font-size: 0.9em;
   margin-top: 2em;
 }
+
+/* Tablet screen */
+@media (max-width: 768px) {
+  .navbar ul {
+    flex-direction: column;
+    gap: 1em;
+  }
+  .banner h2 {
+    font-size: 1.8em;
+  }
+  .banner p {
+    font-size: 1em;
+  }
+  .introduction, .benefits, .tips {
+    padding: 1em;
+  }
+  .benefits, .tips {
+    flex-direction: column;
+  }
+  .benefits-content, .benefits-image, .tips-image-front, .tips-image {
+    width: 100%;
+    margin-bottom: 1em;
+  }
+}
+
+/* Mobile screen */
+@media (max-width: 480px) {
+  .banner h2 {
+    font-size: 1.5em;
+  }
+  .banner p {
+    font-size: 0.9em;
+  }
+  .banner-button {
+    padding: 0.5em 1em;
+  }
+  .introduction h1, .benefits h2, .tips h2 {
+    font-size: 1.5em;
+  }
+  .intro-paragraph, .benefits-list li, .tips-list li {
+    font-size: 0.9em;
+  }
+}

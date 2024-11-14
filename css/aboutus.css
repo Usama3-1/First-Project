@@ -175,3 +175,40 @@ body {
     font-size: 1.2em;
     font-weight: bold;
 }
+
+/* Tablet screen */
+@media (max-width: 768px) {
+    .about-navbar ul {
+      flex-direction: column;
+      gap: 1em;
+    }
+    .about-section {
+      flex-direction: column;
+      padding: 1em;
+    }
+    .about-image img {
+      width: 80%;
+      margin: 0 auto;
+    }
+    .team-gallery {
+      flex-wrap: wrap;
+      gap: 1em;
+    }
+  }
+  
+  /* Mobile screen */
+  @media (max-width: 480px) {
+    .about-section {
+      gap: 1em;
+    }
+    .about-info h1 {
+      font-size: 1.8em;
+    }
+    .team-section h2, .bmi-calculator h2 {
+      font-size: 1.5em;
+    }
+    .calculator-form {
+      padding: 1em;
+    }
+  }
+  
